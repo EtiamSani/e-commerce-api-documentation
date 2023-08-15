@@ -9,6 +9,8 @@ http://localhost:8080/api/v1/products?page=NOMBRE-DE-LA-PAGE
 
 - `/api/v1/products?page=1`
 
+> **_NOTE:_**  L'API ne contient uniquement 2 pages.
+
 ### Arguments
 
 - `page` (*obligatoire*): Numéro de la page désirée (`1`).
