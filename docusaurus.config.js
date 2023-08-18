@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vêtement.api',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'API de vêtement en ligne en français !',
   favicon: 'img/favicon-tshirt.ico',
 
   // Set the production url of your site here

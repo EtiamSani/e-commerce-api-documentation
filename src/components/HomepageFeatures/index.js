@@ -1,25 +1,26 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import UI from './UI';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Simple d\'utilisation',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       L'API de vêtements en ligne peut être facilement intégrée dans vos sites web et applications,
+        offrant une expérience d'achat transparente sans nécessiter de développement complexe.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Des déscriptions en français !',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Obtenez des informations détaillées et authentiques sur chaque produit grâce à notre API.
+        Consultez des descriptions complètes, des spécifications précises.
       </>
     ),
   },
@@ -53,6 +54,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <UI/>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
