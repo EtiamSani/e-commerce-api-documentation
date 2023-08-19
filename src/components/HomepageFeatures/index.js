@@ -29,8 +29,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        L'API que nous proposons est la solution idéale pour répondre à vos besoins, et la meilleure partie est que c'est 100 % gratuit. Vous pouvez profiter de toutes les fonctionnalités et capacités offertes par notre API sans aucun coût associé
       </>
     ),
   },
