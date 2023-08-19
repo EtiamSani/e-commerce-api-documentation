@@ -25,7 +25,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: '100 % gratuit',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
