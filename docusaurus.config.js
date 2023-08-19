@@ -97,8 +97,8 @@ const config = {
                 to: '/docs/conception-api/Introduction',
               },
               {
-                label: 'Base de donnée',
-                to: '/docs/conception-api/Base de donnée',
+                label: 'Base de données',
+                to: '/docs/conception-api/Base de données',
               },
               {
                 label: 'Architecture',
